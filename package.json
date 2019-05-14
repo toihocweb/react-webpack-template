@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-kit",
   "version": "1.0.0",
-  "description": "a boiler plate for creating react applications bundled by webpack",
+  "description": "React Template",
   "main": "src/js/app.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js",
@@ -10,16 +10,7 @@
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.production.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/temilaj/react-webpack-starter",
-  "repository": "https://github.com/temilaj/react-webpack-starter.git",
-  "keywords": [
-    "react",
-    "webpack",
-    "react sample",
-    "react starter",
-    "react boilerplate"
-  ],
-  "author": "Temi Lajumoke <temi@temilajumoke.com> (http://temilajumoke.com)",
+  "author": "Nhat Bui",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
